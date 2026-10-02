@@ -1,0 +1,38 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Identidad de Creathin: verde de marca + tipografía Outfit (igual que la app). */
+:root {
+  --ifm-font-family-base: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  --ifm-heading-font-family: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+
+  --ifm-color-primary: #2d6a31;
+  --ifm-color-primary-dark: #245a28;
+  --ifm-color-primary-darker: #1f4d23;
+  --ifm-color-primary-darkest: #173a1a;
+  --ifm-color-primary-light: #3f8143;
+  --ifm-color-primary-lighter: #6fa46a;
+  --ifm-color-primary-lightest: #9fc59a;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+::selection {
+  background: #c6dec3;
+  color: #173a1a;
+}
+
+/* Paleta más clara en modo oscuro, por legibilidad. */
+[data-theme='dark'] {
+  --ifm-color-primary: #6fa46a;
+  --ifm-color-primary-dark: #3f8143;
+  --ifm-color-primary-darker: #2d6a31;
+  --ifm-color-primary-darkest: #245a28;
+  --ifm-color-primary-light: #9fc59a;
+  --ifm-color-primary-lighter: #c6dec3;
+  --ifm-color-primary-lightest: #e5f1e4;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
