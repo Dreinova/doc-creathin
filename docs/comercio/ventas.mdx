@@ -4,7 +4,11 @@ sidebar_position: 1
 
 # Ventas
 
-Una venta **nace siempre de una cotización aprobada** — no se crean ventas sueltas desde esta pantalla. Ve a [Cotizaciones](../costeo-y-cotizaciones/cotizaciones), aprueba la que corresponda y usa **"Convertir en venta"** en su menú **⋯**.
+Una venta nueva **nace siempre de una cotización aprobada** — no se crean ventas sueltas desde esta pantalla. Ve a [Cotizaciones](../costeo-y-cotizaciones/cotizaciones), aprueba la que corresponda y usa **"Convertir en venta"** en su menú **⋯**.
+
+:::note
+Los pedidos que traías de antes (por ejemplo, de un Excel de control) se cargaron como ventas sin cotización de origen — por eso algunas ventas no tienen el botón "Ver cotización original". El resto de la pantalla funciona igual.
+:::
 
 ## La lista de ventas
 
@@ -12,7 +16,13 @@ Cada venta muestra número, cliente, estado, fecha y total. Puedes:
 
 - **Filtrar** por estado con las pestañas de arriba.
 - **Buscar** por cliente o número.
-- Hacer clic en una fila para ver su detalle (una copia de la cotización original, tal como quedó al momento de convertirla).
+- Hacer clic en una fila para ver su detalle (una copia de la cotización original, tal como quedó al momento de convertirla, o los datos del pedido si no vino de una cotización).
+
+La lista se divide en páginas de 20.
+
+## Datos del pedido
+
+Cuando existen, el detalle de la venta muestra también **fecha de entrega**, **abono**, **saldo**, **medio de pago**, **costo de envío** y **servicio** — información típica de un pedido que no siempre viene en la cotización.
 
 ## Estados de una venta
 
@@ -29,5 +39,5 @@ Cuando marcas una venta como **Entregada**, aparece automáticamente en [Posvent
 
 ## Otras acciones
 
-- **Ver cotización original**: abre la cotización de la que nació esta venta.
+- **Ver cotización original**: abre la cotización de la que nació esta venta (si la tiene).
 - **Eliminar**: la borra del historial — no se puede deshacer.
